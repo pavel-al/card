@@ -1,0 +1,430 @@
+::before,
+::after {
+   padding:0;
+   margin:0;
+   border:0;
+   box-sizing: border-box;
+}
+a{
+   text-decoration: none;
+}
+ul,
+ol,
+li{
+   list-style:none;
+   display: inline;
+}
+img{
+   vertical-align:top;
+}
+/*-----------------------------ШАПКА--------------------------------*/
+
+.body {
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+}
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 9%;
+    margin: 2.2% 0;
+}
+.header__menu {
+}
+.menu {
+}
+#menu__toggle {
+    display: none;
+}
+.menu__pavel {
+    display: none;
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__item:not(:last-child) {
+    margin: 0 44px 0 0px;
+}
+.menu__link {
+    font-size: 20px;
+    color:black;
+}
+.menu__link_features {
+    font-size: calc(15px + (25 - 15) * ((100vw - 320px) / (1920 - 320)));
+    font-family: "Gilroy800", "Arial", sans-serif;
+}
+.menu__link_pricing {
+    font-size: calc(15px + (25 - 15) * ((100vw - 320px) / (1920 - 320)));
+    font-family: "Gilroy800", "Arial", sans-serif;
+}
+.menu__link_faq {
+    font-size: calc(15px + (25 - 15) * ((100vw - 320px) / (1920 - 320)));
+    font-family: "Gilroy800", "Arial", sans-serif;
+    border-radius: 30px;
+    text-align: center;
+    /* text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #330099;
+    color:  #FFDA45;
+    padding: 3% 5%; */
+}
+/*--------------------------------БЛОК1----------------------------*/
+.coffee {
+}
+.coffee__background {
+    width: 100%;
+}
+.coffee__game {
+    font-size: calc(10px + (50 - 10) * ((100vw - 320px) / (1920 - 320)));
+    font-family: "Montserrat900", "Arial", sans-serif;
+    color: #330099;
+    text-align: right;
+    margin:18% 8.7% 5% 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+.coffee__game_br { /*-----*/
+}
+.coffeebr1 {
+    display: none;
+}
+.coffee__help {
+    font-size: calc(10px + (40 - 10) * ((100vw - 320px) / (1920 - 320)));
+    font-family: "Montserrat700", "Arial", sans-serif;
+    color:rgb(255, 255, 255);
+    text-align: right;
+    margin:25.8% 8.8% 0 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+.coffee__help_br { /*-----*/ 
+}
+.til {
+}
+.til__should {
+    font-size: calc(16px + (36 - 16) * ((100vw - 320px) / (1920 - 320)));
+    font-family: "Montserrat900", "Arial", sans-serif;
+    text-align: center;
+    color: #585858;
+    margin:4.1% 0 2% 0;
+}
+/*--------------------------------БЛОК2-----------------------------*/
+.color{
+    background-color: #F9F9F9;
+    padding-top: 2%;
+}
+.colortilbr {
+    display: none;
+}
+.bloc {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding:0 2%;
+}
+.blocone {
+    width:319px;
+    height: calc(201px + (319 - 201) * ((100vw - 320px) / (1920 - 320)));
+    margin: 3% 10% 0% 0px; 
+    text-align:center;
+}
+.blocone__heart {
+}
+.blocone__individual {
+    font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1920 - 320)));
+    font-family: "Montserrat900", "Arial", sans-serif;
+    color: #585858;
+}
+.blocone__individual_br { /*-----*/
+}
+.blocone__every {
+    font-size: calc(10px + (20 - 10) * ((100vw - 320px) / (1920 - 320)));
+    font-family: "Montserrat500", "Arial", sans-serif;
+}
+.blocone__every_br { /*-----*/
+}
+.bloctwo {
+    width:319px;
+    height: calc(201px + (319 - 201) * ((100vw - 320px) / (1920 - 320)));
+    margin: 2% 8% 0% 0px;
+    text-align:center;
+}
+.bloctwo__moneybox {
+}
+.bloctwo__reasonable {
+    font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1920 - 320)));
+    font-family: "Montserrat900", "Arial", sans-serif;
+    color: #585858;
+}
+.bloctwo__reasonable_br { /*-----*/
+}
+.bloctwo__offerfavorable {
+    font-size: calc(10px + (20 - 10) * ((100vw - 320px) / (1920 - 320)));
+    font-family: "Montserrat500", "Arial", sans-serif;
+}
+.bloctwo__offerfavorable_br { /*---------*/
+}
+.blocthree {
+    width:319px;
+    height: calc(201px + (319 - 201) * ((100vw - 320px) / (1920 - 320))); 
+    margin: 2% 1% 0% 0px;  
+    text-align:center;
+}
+.blocthree__medal {
+}
+.blocthree__great {
+    font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1920 - 320)));
+    font-family: "Montserrat900", "Arial", sans-serif;
+    color: #585858;
+}
+.blocthree__carefully {
+    font-size: calc(10px + (20 - 10) * ((100vw - 320px) / (1920 - 320)));
+    font-family: "Montserrat500", "Arial", sans-serif;
+}
+.blocthree__carefully_br { /*--------*/
+}
+/**/
+.blocthreebr_media-1 {
+    display: none;
+}
+.blocthreebr_media-2 {
+    display: none;
+}
+.blocthreebr_media-3 {
+    display: none;
+}
+/**/
+.bottom {
+    padding-top: 14%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+.bottom__consultation {
+    background-color: #330099;
+    color:  #FFDA45;
+    padding: 1.5% 3.2%;
+    font-size: calc(15px + (20 - 15) * ((100vw - 320px) / (1920 - 320)));
+    font-family: "Montserrat800", "Arial", sans-serif;
+    border: none;
+    margin:0 0 3% 0;
+
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+/*------------------------------БЛОК3-------------------------------*/
+.colortwo {
+    padding: 0 7%;
+}
+.colortwo__whatican {
+    font-family: "Montserrat900", "Arial", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #585858;
+    margin-top: 8.1%;
+}
+.square {
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.squareone {
+    width: 768px;
+    height: 175px;
+    display: flex;
+    align-items: center;
+}
+.squareone__img {
+    width: 175px;
+    height: 175px;
+}
+.squareone__blocc {
+    margin-left: 3%;
+}
+.squareone__writevalid {
+    font-size: calc(16px + (30 - 16) * ((100vw - 320px) / (1920 - 320)));
+    font-family: "Montserrat600", "Arial", sans-serif;
+}
+.squareone__writevalid_br { /*---------*/
+}
+.squareonebrmedia {
+    display: none;
+}
+.squareonebr {
+    display: none;
+}
+.squareone__yoursite {
+    font-size: calc(14px + (20 - 14) * ((100vw - 320px) / (1920 - 320))); 
+    font-family: "Montserrat500", "Arial", sans-serif;
+}
+.squareone__yoursite_br { /*----------*/
+}
+.squaretwo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 7%;
+}
+.squaretwo__blocc {
+    margin-right: 3%;
+}
+.squareone__img {
+}
+.squaretwo__javascript {
+    font-size: calc(16px + (30 - 16) * ((100vw - 320px) / (1920 - 320)));
+    font-family: "Montserrat600", "Arial", sans-serif;
+    text-align: right;
+}
+.squaretwo__javascript_br { /*----------*/
+}
+.squaretwo__amfluent {
+    font-size: calc(14px + (20 - 14) * ((100vw - 320px) / (1920 - 320))); 
+    font-family: "Montserrat500", "Arial", sans-serif;
+    text-align: right;
+}
+.squaretwo__amfluent_br { /*-----------*/
+}
+.squarethree {
+    display: flex;
+    align-items: center;
+    margin-top:6.8%;
+    margin-bottom: 6.6%;
+}
+.squarethree__blocc {
+    margin-left: 3%;
+}
+.squarethree__img {
+}
+.squarethree__react {
+    font-size: calc(16px + (30 - 16) * ((100vw - 320px) / (1920 - 320)));
+    font-family: "Montserrat600", "Arial", sans-serif;
+}
+.squarethree__react_br { /*------------*/
+}
+.squarethree__thanks {
+    font-size: calc(14px + (20 - 14) * ((100vw - 320px) / (1920 - 320))); 
+    font-family: "Montserrat500", "Arial", sans-serif;
+}
+.squarethree__thanks_br { /*------------*/
+}
+/*-------------------------------БЛОК4-----------------------------*/
+.filling {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgba(51, 0, 153, 0.12);;
+    margin-top: 3%;
+}
+.filling__questions {
+    font-size: calc(16px + (39 - 16) * ((100vw - 320px) / (1920 - 320)));
+    font-family: "Montserrat900", "Arial", sans-serif;
+    margin-top: 4%;
+    color: #585858;
+    margin-bottom: 2%;
+}
+.filling__img4 {
+    margin-bottom: 2%;
+    width: calc(175px + (175 - 155) * ((100vw - 320px) / (1920 - 320)));
+    height: calc(175px + (175 - 155) * ((100vw - 320px) / (1920 - 320)));
+}
+.filling__pleasefill {
+    color: #585858;
+    font-size: calc(16px + (22 - 16) * ((100vw - 320px) / (1920 - 320)));
+    font-family: "Montserrat600", "Arial", sans-serif;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.filling__pleasefill_br { /*---------*/
+}
+.filling__name {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1.8% 4% 1.8% 2%;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    font-size: calc(10px + (18 - 10) * ((100vw - 320px) / (1920 - 320)));
+    font-family: "Montserrat600", "Arial", sans-serif;
+}
+.filling__phone {
+    margin-bottom: 2%;
+    padding: 1.8% 4% 1.8% 2%;
+    border-radius: 30px;
+    border: none;
+    font-size: calc(10px + (18 - 10) * ((100vw - 320px) / (1920 - 320)));
+    font-family: "Montserrat600", "Arial", sans-serif;
+}
+.filling__email {
+    margin-bottom: 2%;
+    padding: 1.8% 4% 1.8% 2%;
+    border-radius: 30px;
+    border: none;
+    font-size: calc(10px + (18 - 10) * ((100vw - 320px) / (1920 - 320)));
+    font-family: "Montserrat600", "Arial", sans-serif;
+}
+.filling__send {
+    font-family: "Montserrat900", "Arial", sans-serif;
+    font-size: calc(10px + (18 - 10) * ((100vw - 320px) / (1920 - 320)));
+    margin-bottom: 5%;
+    padding: 2% 6%;
+    border-radius: 30px;
+    border: none;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #4AB272;
+    color: #FFFFFF;
+}
+/*---------------------------ПОДВАЛ---------------------------------*/
+.footer {
+    background-color:#330099;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__tex {
+    color: #FFFFFF;
+    margin-top: 18%;
+    font-size: calc(14px + (20 - 14) * ((100vw - 320px) / (1920 - 320)));
+}
+.svg {
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer__tex_br { /*----------*/
+}
+.footer__linkedin {
+    width:  calc(35px + (90 - 35) * ((100vw - 320px) / (1920 - 320)));
+    height: calc(35px + (90 - 35) * ((100vw - 320px) / (1920 - 320)));
+    margin-right: 25%;
+    margin-top: 20px;
+}
+.footer__instagram {
+    width:  calc(35px + (90 - 35) * ((100vw - 320px) / (1920 - 320)));
+    height: calc(35px + (90 - 35) * ((100vw - 320px) / (1920 - 320)));
+    margin-right: 25%;
+    margin-top: 20px;
+}
+.footer__facebook {
+    width:  calc(35px + (90 - 35) * ((100vw - 320px) / (1920 - 320)));
+    height: calc(35px + (90 - 35) * ((100vw - 320px) / (1920 - 320)));
+    margin-top: 20px;
+    margin-bottom: 76px;
+}
+.footer__webhero {
+    color: #FFFFFF;
+    margin-bottom: 8%;
+    font-size: calc(14px + (20 - 14) * ((100vw - 320px) / (1920 - 320)));
+}

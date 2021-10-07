@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Gilroy800";
+    font-style: normal;
+    font-weight: 800;
+
+    src: local("Gilroy"),
+    url("./fonts/GilroyBold800.woff") format("woff");
+}
+@font-face {
+    font-family: "Montserrat900";
+    font-style: normal;
+    font-weight: 900;
+
+    src: local("Montserrat"),
+    url("./fonts/MontserratBlack900.woff") format("woff");
+}
+@font-face {
+    font-family: "Montserrat800";
+    font-style: normal;
+    font-weight: 800;
+
+    src: local("Montserrat"),
+    url("./fonts/MontserratExtraBold800.woff") format("woff");
+}
+@font-face {
+    font-family: "Montserrat700";
+    font-style: normal;
+    font-weight: 700;
+
+    src: local("Montserrat"),
+    url("./fonts/MontserratBold700.woff") format("woff");
+}
+@font-face {
+    font-family: "Montserrat700";
+    font-style: normal;
+    font-weight: 600;
+
+    src: local("Montserrat"),
+    url("./fonts/MontserratSemiBold600.woff") format("woff");
+}
